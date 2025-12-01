@@ -35,99 +35,121 @@ class Searchpage extends StatelessWidget {
       body: ListView(
 
               children: [
+
                 ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item1.title),
                   subtitle: Text(item1.subtitle),
-                ),
+                ),                 Divider(),
                 ListTile(
                   leading: Icon(Icons.home_max),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),
+                ),                 Divider(),
                 ListTile(
                   leading: Icon(Icons.home_filled),
                   title: Text(item3.title),
                   subtitle: Text(item3.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home_mini),
                   title: Text(item4.title),
                   subtitle: Text(item4.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home_max_rounded),
                   title: Text(item5.title),
                   subtitle: Text(item5.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home_repair_service),
                   title: Text(item6.title),
                   subtitle: Text(item6.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.stop_circle),
                   title: Text(item7.title),
                   subtitle: Text(item7.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.surround_sound),
                   title: Text(item8.title),
                   subtitle: Text(item8.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.surround_sound_outlined),
                   title: Text(item9.title),
                   subtitle: Text(item9.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.play_arrow),
                   title: Text(item10.title),
                   subtitle: Text(item10.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.play_circle),
                   title: Text(item11.title),
                   subtitle: Text(item11.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.play_arrow_rounded),
                   title: Text(item12.title),
                   subtitle: Text(item12.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.play_disabled),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.expand),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.subtitles),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),  ListTile(
+                ),                 Divider(),
+                ListTile(
                   leading: Icon(Icons.home),
                   title: Text(item2.title),
                   subtitle: Text(item2.subtitle),
-                ),
+                ),                 Divider(),
+
               ],
       ),
+
       );
 
   }

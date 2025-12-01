@@ -9,8 +9,8 @@ class Settingpage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.settings,color: Colors.blue,size: 24),
-          Text('صفحة الاعدادات',style: TextStyle(fontSize: 24,color: Colors.blueAccent),)
+          Icon(Icons.settings,color: Colors.green,size: 24),
+          Text('صفحة الاعدادات',style: TextStyle(fontSize: 24,color: Colors.green),)
 
         ],
       ),

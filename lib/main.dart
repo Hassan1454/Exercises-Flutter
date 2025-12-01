@@ -7,6 +7,7 @@ import 'Settingpage.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: indexpage() ,
   ));
 }
@@ -50,7 +51,7 @@ class _indexpageState extends State<indexpage> {
     return Scaffold(
       appBar: AppBar(title: Text(_gettitel(_bottomnavbar),
       ),
-       centerTitle: true, backgroundColor: Colors.blueAccent
+       centerTitle: true, backgroundColor: Colors.green
       ),
 
       body: IndexedStack(
@@ -67,10 +68,10 @@ class _indexpageState extends State<indexpage> {
     },
 
     items: [
-           BottomNavigationBarItem(label: 'الصفحة الرئيسية', icon: Icon(Icons.home,color: Colors.blueAccent,),),
-           BottomNavigationBarItem( label: ' صفحة البحث', icon: Icon(Icons.search,color: Colors.blueAccent,)),
-           BottomNavigationBarItem(label: 'صفحة الحساب', icon: Icon(Icons.account_circle,color: Colors.blueAccent,)),
-           BottomNavigationBarItem(label: 'صفحة الاعدادات', icon: Icon(Icons.settings,color: Colors.blueAccent,)),
+           BottomNavigationBarItem(label: 'الصفحة الرئيسية', icon: Icon(Icons.home,color: Colors.lightGreen,),),
+           BottomNavigationBarItem( label: ' صفحة البحث', icon: Icon(Icons.search,color: Colors.lightGreen,)),
+           BottomNavigationBarItem(label: 'صفحة الحساب', icon: Icon(Icons.account_circle,color: Colors.lightGreen,)),
+           BottomNavigationBarItem(label: 'صفحة الاعدادات', icon: Icon(Icons.settings,color: Colors.lightGreen,)),
     ],
     ),
     );

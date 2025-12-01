@@ -9,8 +9,8 @@ class Accountpage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.account_box_rounded,size: 45,color: Colors.blue, ),
-          Text('صفحة الحساب' , style: TextStyle(fontSize: 24, color: Colors.blueAccent),)
+          Icon(Icons.account_box_rounded,size: 45,color: Colors.green, ),
+          Text('صفحة الحساب' , style: TextStyle(fontSize: 24, color: Colors.green),)
         ],
       ),
     );
